@@ -146,75 +146,82 @@ html{
     width: 50px;
   }
 
-
-  .container-empresa{
-    display: flex;
-  }
-
-  .traco-azul{
-    width: 25px;
-    height: 3px;
-    background-color: var(--azul);
-    margin-top: 11px;
-    margin: 20px;
-  }
-
-  .sobre-a-empresa{
-    color: var(--azul);
-    font-family: var(--font-titulo);
-    font-weight: bold;
-    margin-top: 8px;
-  }
-
-  .azul{
-    color: var(--azul);
-    font-weight: bold;
-  }
-
-  .titulo-sobre{
-    font-family: var(--font-titulo);
-    font-size: 18px;
-    margin-left: 7px;
-  }
-
-  .quem-somos{
-    color: var(--azul);
-    font-family: var(--font-titulo);
-    font-weight: bold;
-    margin-top: 30px;
-    margin-left: 15px;
-  }
-
-  .desc-sobre{
-    margin-left: 20px;
-    margin-top: 15px;
-    font-family: var(--font-padrao);
-    font-size: 14px;
-  }
-
-  .btn-sobre{
-    width: 200px;
-    border: 2px solid var(--azul);
-    background-color: white;
+.btn-habilidade{
     padding: 15px;
+    background-color: var(--azul);
+    color: white;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
     font-family: var(--font-titulo);
-    font-size: 13px;
-    border-radius: 15px;
     font-weight: bold;
-  }
+}
 
-  .div-btn{
-    text-align: center;
-    margin-top: 15px;
-    
-  }
-  .img-sobre{
-    width: 200px;
-    border-radius: 18px;
-    border: 2px solid var(--azul);
-  }
-
-  .div-img{
+.container-botoes{
     text-align: center;
     margin-top: 30px;
-  }
+    padding: 15px;
+}
+
+.desc-habilidade{
+    margin-left: 25px;
+    font-family: var(--font-padrao);
+}
+
+.titulo-habilidade{
+    font-family: var(--font-titulo);
+    font-weight: bold;
+    color: var(--azul);
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.container-habilidade{
+    display: flex;
+}
+
+.risco-azul{
+    width: 150px;
+    height: 4px;
+    background-color: var(--azul);
+    margin-left: 20px;
+}
+
+.risco-cinza{
+    width: 75px;
+    height: 4px;
+    background-color: var(--cinza);
+}
+
+.risco-azul-2{
+    width: 200px;
+    height: 4px;
+    background-color: var(--azul);
+    margin-left: 20px;
+}
+
+.risco-cinza-2{
+    width: 25px;
+    height: 4px;
+    background-color: var(--cinza);
+}
+
+.risco-azul-3{
+    width: 175px;
+    height: 4px;
+    background-color: var(--azul);
+    margin-left: 20px;
+}
+
+.risco-cinza-3{
+    width: 50px;
+    height: 4px;
+    background-color: var(--cinza);
+}
+
+.div-img{
+    text-align: center;
+}
+
+.img-hablidade{
+    width: 250px;
+}
