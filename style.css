@@ -57,7 +57,7 @@ html{
 }
 
 .home{
-    background-image: url(/img/home-bg\ 2.png);
+    background-image: url(img/home-fundo.png);
     background-repeat: no-repeat, repeat;
     background-position: center center, top left;
     background-size: cover, auto;
@@ -643,7 +643,7 @@ h6{
 
 .home-cell{
     height: 100vh;
-    background-image: url(img/home-bg\ 2.png);
+    background-image: url(img/home-fundo.png);
     background-repeat: no-repeat, repeat;
     background-position: center center, top left;
     background-size: cover, auto;
