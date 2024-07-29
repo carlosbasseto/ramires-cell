@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="compra.css">
+</head>
+<body>
+    <header class="cabecario">
+        <img src="img/logo-removebg-preview 1.png" alt="" class="logo-tipo">
+        <ul class="lista-nav">
+            <li class="item-nav"><a class="link-nav" href="index.html">Home</a></li>
+            <li class="item-nav"><a class="link-nav" href="index.html">Sobre</a></li>
+            <li class="item-nav"><a class="link-nav" href="index.html">Habilidade</a></li>
+            <li class="item-nav"><a class="link-nav" href="index.html">Serviços</a></li>
+            <li class="item-nav"><a class="link-nav" href="index.html">Equipe</a></li>
+            <li class="item-nav"><a class="botao-compra" href="#">Compra</a></li>
+        </ul>
+    </header>
+    <div class="filter-container">
+        <label for="product-filter">Filtrar por categoria:</label>
+        <select id="product-filter">
+            <option value="all">Todos</option>
+            <option value="case">Capinhas</option>
+            <option value="charger">Carregadores</option>
+            <option value="earphone">Fones</option>
+        </select>
+
+        <div id="case-subfilter-container" style="display: none;">
+            <label for="case-subfilter">Filtrar por tipo de capinha:</label>
+            <select id="case-subfilter">
+                <option value="all">Todos</option>
+                <option value="iphone">iPhone</option>
+                <option value="samsung">Samsung</option>
+                <option value="xiaomi">Xiaomi</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product case iphone">
+            <img src="img/capinha-1.png" alt="" class="img-card">
+            <p class="titulo-card">CAPINHA IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product case iphone">
+            <img src="img/capinha-1.png" alt="" class="img-card">
+            <p class="titulo-card">CAPINHA IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product case iphone">
+            <img src="img/capinha-1.png" alt="" class="img-card">
+            <p class="titulo-card">CAPINHA IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product case samsung">
+            <img src="img/capinha-sansung.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CAPINHA SAMSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product case samsung">
+            <img src="img/capinha-sansung.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CAPINHA SAMSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product case samsung">
+            <img src="img/capinha-sansung.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CAPINHA SAMSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product case xiaomi">
+            <img src="img/capinha-xiome.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CAPINHA XIAOMI</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product case xiaomi">
+            <img src="img/capinha-xiome.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CAPINHA XIAOMI</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product case xiaomi">
+            <img src="img/capinha-xiome.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CAPINHA XIAOMI</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product charger">Carregador 1</div>
+        <div class="product charger">Carregador 2</div>
+        <div class="product earphone">Fone 1</div>
+        <div class="product earphone">Fone 2</div>
+    </div>
+    <script src="compra.js"></script>
+</body>
+</html>

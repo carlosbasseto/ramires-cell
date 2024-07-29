@@ -23,7 +23,7 @@ html{
 }
 
 .cabecario{
-    background-color: var(--azul);
+    background-color: black;
     display: flex;
     justify-content: space-between;
    position: fixed;
@@ -51,6 +51,17 @@ html{
     color: var(--cinza);
     font-family: var(--font-padrao);
 }
+
+.botao-compra{
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cinza);
+    font-family: var(--font-padrao);
+    border: 2px solid white;
+    margin-right: 15px;
+}
+
 
 .link-nav:hover{
     color: white;
