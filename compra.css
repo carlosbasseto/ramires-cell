@@ -122,6 +122,10 @@
     width: 180px;
 }
 
+.img-card-XIOME{
+    width: 140px;
+}
+
 .titulo-card{
     font-family: var(--font-principal);
 }
@@ -153,3 +157,5 @@
     font-family: var(--font-principal);
     font-size: 16px;
 }
+
+

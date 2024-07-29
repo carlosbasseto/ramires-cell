@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="compra.css">
+    <link rel="shortcut icon" href="img/logo-removebg-preview 1.png" type="image/x-icon">
 </head>
 <body>
     <header class="cabecario">
@@ -30,6 +31,26 @@
         <div id="case-subfilter-container" style="display: none;">
             <label for="case-subfilter">Filtrar por tipo de capinha:</label>
             <select id="case-subfilter">
+                <option value="all">Todos</option>
+                <option value="iphone">iPhone</option>
+                <option value="samsung">Samsung</option>
+                <option value="xiaomi">Xiaomi</option>
+            </select>
+        </div>
+        
+        <div id="charger-subfilter-container" style="display: none;">
+            <label for="charger-subfilter">Filtrar por tipo de carregador:</label>
+            <select id="charger-subfilter">
+                <option value="all">Todos</option>
+                <option value="iphone">iPhone</option>
+                <option value="samsung">Samsung</option>
+                <option value="xiaomi">Xiaomi</option>
+            </select>
+        </div>
+        
+        <div id="earphone-subfilter-container" style="display: none;">
+            <label for="earphone-subfilter">Filtrar por tipo de fone:</label>
+            <select id="earphone-subfilter">
                 <option value="all">Todos</option>
                 <option value="iphone">iPhone</option>
                 <option value="samsung">Samsung</option>
@@ -120,10 +141,165 @@
             </div>
         </div>
 
-        <div class="product charger">Carregador 1</div>
-        <div class="product charger">Carregador 2</div>
-        <div class="product earphone">Fone 1</div>
-        <div class="product earphone">Fone 2</div>
+        <div class="product charger iphone">
+            <img src="img/carregador-iphone.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CARREGADOR IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product charger iphone">
+            <img src="img/carregador-iphone.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CARREGADOR IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product charger iphone">
+            <img src="img/carregador-iphone.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CARREGADOR IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product charger samsung">
+            <img src="img/carregador-sansung.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CARREGADOR SANSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product charger samsung">
+            <img src="img/carregador-sansung.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CARREGADOR SANSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product charger samsung">
+            <img src="img/carregador-sansung.png" alt="" class="img-card-sansung">
+            <p class="titulo-card">CARREGADOR SANSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product charger xiaomi">
+            <img src="img/carregador-xiome.png" alt="" class="img-card-XIOME">
+            <p class="titulo-card">CARREGADOR XIOME</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+        <div class="product charger xiaomi">
+            <img src="img/carregador-xiome.png" alt="" class="img-card-XIOME">
+            <p class="titulo-card">CARREGADOR XIOME</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+        <div class="product charger xiaomi">
+            <img src="img/carregador-xiome.png" alt="" class="img-card-XIOME">
+            <p class="titulo-card">CARREGADOR XIOME</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone iphone">
+            <img src="img/fone-iphone.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone iphone">
+            <img src="img/fone-iphone.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone iphone">
+            <img src="img/fone-iphone.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE IPHONE</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone samsung">
+            <img src="img/fone-sansung.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE SANSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone samsung">
+            <img src="img/fone-sansung.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE SANSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone samsung">
+            <img src="img/fone-sansung.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE SANSUNG</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone xiaomi"> 
+            <img src="img/fone-xiome.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE XIOME</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone xiaomi"> 
+            <img src="img/fone-xiome.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE XIOME</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product earphone xiaomi"> 
+            <img src="img/fone-xiome.webp" alt="" class="img-card-sansung">
+            <p class="titulo-card">FONE XIOME</p>
+            <div class="container-btn">
+                <button class="btn-compra">Detalhes</button>
+                <button class="btn-compra">Comprar</button>
+            </div>
+        </div>
     </div>
     <script src="compra.js"></script>
 </body>
