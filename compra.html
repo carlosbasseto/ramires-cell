@@ -64,7 +64,7 @@
             <img src="img/capinha-1.png" alt="" class="img-card">
             <p class="titulo-card">CAPINHA IPHONE</p>
             <div class="container-btn">
-                <button class="btn-compra">Detalhes</button>
+                <p class="valor-produto">R$ 100,00</p>
                 <button class="btn-compra" data-title="CAPINHA IPHONE" data-price="R$ 50,00" data-description="Capinha para iPhone de alta qualidade." data-img="img/capinha-1.png">Comprar</button>
             </div>
         </div>
@@ -305,45 +305,45 @@
     </div>
 
     
-
+    
     <div class="container" id="purchase-screen" style="display: none;">
-        <div class="product">
+        <div class="product-compra">
             <img id="purchase-img" src="" alt="Produto">
             <div class="product-details">
                 <h1 id="purchase-title" class="product-title"></h1>
                 <p id="purchase-price" class="product-price"></p>
                 <p id="purchase-description" class="product-description"></p>
-                <a href="#" class="btn">Comprar</a>
+                <a href="#compra-agora" class="btn-venda">Comprar</a>
             </div>
         </div>
 
-        <h2>Produtos Relacionados</h2>
+        <h2 class="h2-relacionado">Produtos Relacionados</h2>
         <div class="related-products">
             <div class="related-product">
-                <img src="img/relacionado1.jpg" alt="Produto Relacionado 1">
+                <img src="img/capinha-xiome.png" alt="Produto Relacionado 1">
                 <div class="related-product-details">
-                    <p class="related-product-title">Produto Relacionado 1</p>
+                    <p class="related-product-title">Capinha Xiome</p>
                     <p class="related-product-price">R$ 99,99</p>
                 </div>
             </div>
             <div class="related-product">
-                <img src="img/relacionado2.jpg" alt="Produto Relacionado 2">
+                <img src="img/carregador-sansung.png" alt="Produto Relacionado 2">
                 <div class="related-product-details">
-                    <p class="related-product-title">Produto Relacionado 2</p>
+                    <p class="related-product-title">Carregado Sansung</p>
                     <p class="related-product-price">R$ 149,99</p>
                 </div>
             </div>
             <div class="related-product">
-                <img src="img/relacionado3.jpg" alt="Produto Relacionado 3">
+                <img src="img/fone-iphone.webp" alt="Produto Relacionado 3">
                 <div class="related-product-details">
-                    <p class="related-product-title">Produto Relacionado 3</p>
+                    <p class="related-product-title">Fone Iphone</p>
                     <p class="related-product-price">R$ 129,99</p>
                 </div>
             </div>
         </div>
         <div id="contact-screen" class="container">
             <h2>Informações de Contato</h2>
-            <section>
+            <section id="compra-agora">
             <form class="form" action="https://api.staticforms.xyz/submit" method="post">
                 <label>Nome</label>
                 <input type="text" name="name" placeholder="Nome completo" autocomplete="off" required>

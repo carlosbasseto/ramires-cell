@@ -8,6 +8,13 @@
     text-decoration: none;
 }
 
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top:5rem;
+}
+
+
 :root{
     --font-principal:'Righteous', sans-serif;
     --font-secundaria: 'Lato', sans-serif;
@@ -34,9 +41,9 @@
 .products-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 100%;;
     text-align: center;
-    
+    margin-left: 50px;
 }
 
 .product {
@@ -44,11 +51,14 @@
     border-radius: 8px;
     padding: 10px;
     margin: 5px;
-    width: calc(33.3333% - 20px);
+    width: 30%;
     display: none; 
     height: 270px;
     margin-top: 50px;
+    text-align: center;
 }
+
+
 
 .product.case,
 .product.charger,
@@ -132,6 +142,14 @@
 
 .container-btn{
     padding: 15px;
+    display: flex;
+    margin-left: 20%;
+}
+
+.valor-produto{
+    font-family: var(--font-principal);
+    margin-top: 5px;
+    margin-right: 25px;
 }
 
 .btn-compra{
@@ -160,13 +178,14 @@
 
 
 #purchase-img{
-    width: 40px;
+    width: 90px;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
 .product {
@@ -193,7 +212,7 @@
 }
 
 .product-price {
-    font-size: 20px;
+    font-size: 0px;
     color: #E53935;
     margin-bottom: 20px;
 }
@@ -238,6 +257,14 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-left: 26%;
+}
+
+.h2-relacionado{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 32px;
+    font-family: var(--font-principal);
 }
 
 .related-product {
@@ -362,4 +389,21 @@ section form{
 }
 .btn:hover{
     border-radius: 16px;
+}
+
+.btn-venda{
+    padding: 10px 35px;
+    background-color: var(--azul);
+    color: var(--cinza);
+    font-family: var(--font-secundaria);
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 17px;
+}
+.product-compra{
+    border: 1px solid black;
+    width: 35%;
+    margin-left: 32%;
+    border-radius: 18px;
+    box-shadow: var(--box-shadow);
 }
