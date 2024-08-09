@@ -566,7 +566,7 @@ h6{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--azul);
+    background: black;
   }
   
   .hamburguer{
