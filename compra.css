@@ -415,3 +415,62 @@ section form{
     border-radius: 18px;
     box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 600px) {
+    .filter-container label {
+        margin-right: 10px;
+        font-family: var(--font-principal);
+        font-size: 19px;
+        cursor: pointer;
+        padding: 30px;
+    }
+    
+    .products-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;;
+        text-align: center;
+        margin-left: 18px;
+    }
+    
+    .product {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 10px;
+        width: 90%;
+        display: none; 
+        height: 320px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .container-btn{
+        margin-left: 1px;
+       width: 200%;
+    }
+
+    .valor-produto{
+        font-family: var(--font-principal);
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+
+    .btn-compra{
+        width: 150px;
+        height: 30px;
+        border-radius: 18px;
+        background-color: var(--azul);
+        border: 1px solid var(--azul);
+        font-family: var(--font-padrao);
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .lista-nav{
+        display: none;
+    }
+}
+
